@@ -6,7 +6,9 @@ public class GameOverManager : MonoBehaviour
 {
     public Text Warning;
     public PlayerHealth playerHealth;       
-    public float restartDelay = 5f;            
+    public float restartDelay = 5f;
+
+    GameObject ScreenFade;
 
 
     Animator anim;                          
@@ -16,6 +18,7 @@ public class GameOverManager : MonoBehaviour
     void Awake()
     {
         anim = GetComponent<Animator>();
+        ScreenFade = GameObject.FindGameObjectWithTag("SS");
     }
 
 
