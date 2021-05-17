@@ -6326,7 +6326,7 @@ GameObject:
   - component: {fileID: 1517902852}
   m_Layer: 5
   m_Name: ScreenFade
-  m_TagString: Untagged
+  m_TagString: SS
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
